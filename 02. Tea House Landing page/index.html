@@ -25,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <main class="max-w-screen-xl mx-auto px-16 lg:26 ">
+    <main class="max-w-screen-xl mx-auto px-16 lg:26">
       <!-- Container -->
 
       <!-- Header Section -->
@@ -40,14 +40,30 @@
             Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
             Your Taste Buds.
           </p>
-          <button class="bg-gradient-to-r from-orange-400 via-orange-500 to-red-500 p-5 rounded-md text-white text-1xl">
+          <button
+            class="bg-gradient-to-r from-orange-400 via-orange-500 to-red-500 p-5 rounded-md text-white text-1xl"
+          >
             Explore More <i class="fa-solid fa-up-right-from-square"></i>
           </button>
         </div>
 
         <!-- image content -->
-        <div class="ml-8 ">
-          <img src="./images/banner.png" alt="" />
+        <div class="ml-8 relative">
+          <div>
+            <img src="./images/banner.png" alt="" />
+          </div>
+          <!-- Card section  -->
+          <div class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute md:top-90 md:left-32 lg:left-28">
+            <!-- Star Icon -->
+            <div>
+              <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+            </div>
+            <!-- Text -->
+            <div class="ml-3 ">
+              <h2 class="lg:text-2xl font-bold">5.00</h2>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
         </div>
       </header>
     </main>
